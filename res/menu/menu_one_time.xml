@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/action_one_time_buy"
+            android:orderInCategory="100"
+            android:showAsAction="always"
+            android:icon="@drawable/buy_icon"
+            android:title="@string/one_time_buy"/>
+    <item
+            android:id="@+id/action_reset"
+            android:showAsAction="always"
+            android:title="@string/Reset"
+            android:icon="@drawable/refresh"/>
+</menu>

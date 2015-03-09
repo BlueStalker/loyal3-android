@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loyal3</string>
+    <string name="api_key">ba0476f9-10e8-4277-8770-b90055d7b533</string>
+    <string name="api_endpoint">https://www.l3p94.net/api/v2/</string>
+    <string name="api_baseurl">https://www.l3p94.net/</string>
+    <string name="action_overview">Overview</string>
+    <string name="action_browse_buy">Browse &amp; Buy</string>
+    <string name="action_transaction">Transactions</string>
+    <string name="action_transfer_funds">Transfer Funds</string>
+
+    <string name="browse">browse</string>
+    <string name="add_update_aip">text</string>
+    <string name="one_time_buy">Buy One-Time</string>
+    <string name="delete_aip">Delete Monthly Plan</string>
+    <string name="login_title">Please Login</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="Login">Login</string>
+    <string name="Logout">Logout</string>
+    <string name="Settings">Settings</string>
+    <string name="Reset">Reset</string>
+    <string name="Sell">Sell</string>
+    <string name="Transfer">Transfer</string>
+    <string name="checking_desc">Checking</string>
+    <string name="loyal3_desc">Loyal3</string>
+    <string name="select_amount">Select Investment Amount</string>
+    <string name="select_payment">Select Payment Method</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/background">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="80dp"
+                  android:layout_marginTop="50dp">
+        <TextView
+                android:id="@+id/checking_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/checking_desc"/>
+        <ImageView
+                android:id="@+id/img_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/transfer_arrow"
+                android:contentDescription="@string/browse"/>
+        <TextView
+                android:id="@+id/loyal3_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/loyal3_desc"/>
+    </LinearLayout>
+
+    <EditText android:id="@+id/transfer_amount"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="25sp"
+              android:textColor="#000000"
+              android:layout_marginTop="150dp"
+              android:inputType="numberDecimal"/>
+
+    <Button android:id="@+id/do_transfer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:text="@string/Transfer"/>
+
+
+</RelativeLayout>
